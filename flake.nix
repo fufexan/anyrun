@@ -63,6 +63,7 @@
           symbols = mkPlugin "symbols";
           translate = mkPlugin "translate";
           websearch = mkPlugin "websearch";
+          uwsm_app = mkPlugin "uwsm_app";
         };
 
         # Set up an overlay from packages exposed by this flake

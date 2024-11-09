@@ -2467,6 +2467,18 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "711b9620af191e0cdc7468a8d14e709c3dcdb115b36f838e601583af800a370a"
 
 [[package]]
+name = "uwsm_app"
+version = "0.1.0"
+dependencies = [
+ "abi_stable",
+ "anyrun-plugin",
+ "fuzzy-matcher",
+ "ron",
+ "serde",
+ "sublime_fuzzy",
+]
+
+[[package]]
 name = "version-compare"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
